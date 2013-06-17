@@ -1,12 +1,21 @@
-function greaterNum(numOne, numTwo) {
-	if(numOne > numTwo)
-			return numOne
-		else if (numTwo > numOne)
-			return(numTwo)
-		else
-			return "equal"
+// Why pay a fortune teller when you can just program your fortune yourself?
 
-}
+// Store the following into variables: number of children, partner's name, geographic location, job title.
+// Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
-console.log("Which is greater? " + greaterNum(1,2));
+// var numChildren
+// var partnerName
+// var geoLocation
+// var jobTitle
 
+var numChildren = "N"
+var partnerName = "Z"
+var geoLocation = "Y"
+var jobTitle = "X"
+
+console.log("You will be a " + jobTitle + " in " + geoLocation + " and married to " + partnerName + " with " + numChildren + " kids.")
+
+
+var Q = "You will be a " + jobTitle + " in " + geoLocation + " and married to " + partnerName + " with " + numChildren + " kids."
+
+alert(Q)
