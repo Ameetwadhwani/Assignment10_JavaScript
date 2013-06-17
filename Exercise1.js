@@ -8,10 +8,12 @@
 // var geoLocation
 // var jobTitle
 
-var numChildren = "N"
-var partnerName = "Z"
-var geoLocation = "Y"
-var jobTitle = "X"
+var numChildren = [1, 2, 3, 4]
+var randKids = numChildren[Math.floor(Math.random() *numChildren.length)];
+
+var partnerName = ["Claire", "Joyce", "Louise", "Holloway"]
+var geoLocation = ["Bangalore", "Toronto", "Suburbia", "Africa"]
+var jobTitle = ["Co-Founder & CEO", "Partner", "Lowly Analyt", "Developer"]
 
 // console.log("You will be a " + jobTitle + " in " + geoLocation + " and married to " + partnerName + " with " + numChildren + " kids.")
 
